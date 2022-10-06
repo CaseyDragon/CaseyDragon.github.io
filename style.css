@@ -3,18 +3,24 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    
 }
 
 header, footer {
     background:lightgrey;
     margin: auto 0;
     text-align: center;
-    height: 20vh;
     font-size:medium;
     font-family: 'Courier New', Courier, monospace;
     color: darkslategrey;
     line-height:1;
+}
+
+header {
+    height: 20vh;
+}
+
+footer {
+    height: 10vh;
 }
 
 a {
