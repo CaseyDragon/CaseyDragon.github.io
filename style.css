@@ -9,7 +9,7 @@ header, footer {
     background:lightgrey;
     margin: auto 0;
     text-align: center;
-    font-size:medium;
+    font-size: large;
     font-family: 'Courier New', Courier, monospace;
     color: darkslategrey;
     line-height:1;
@@ -18,7 +18,9 @@ header, footer {
 header {
     height: 20vh;
 }
-
+h1 {
+    padding: 25px 0 0 0;
+}
 footer {
     height: 10vh;
 }
